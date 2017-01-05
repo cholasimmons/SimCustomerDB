@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML View - Photon Test</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/photon.css">
+    <link rel="stylesheet" href="./css/custom.css">
+
+    <!-- Electron Javascript
+    <script src="main.js" charset="utf-8"></script>-->
+    <!-- Javascript -->
+    <script src="./js/menu.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <div class="window">
+
+    <!-- .toolbar-header sits at the top of your app -->
+    <header class="toolbar toolbar-header toolbar-borderless padded-more">
+		    <h1 class="title heading"><img src="./img/title.png" width="30%" alt="Simmons Customer Database" /></h1>
+
+        <div class="toolbar-action pull-right">
+          <div class="btn-group">
+            <button class="btn btn-default active">
+              <span class="icon icon-home"></span>
+            </button>
+            <button class="btn btn-default">
+              <span class="icon icon-window"></span>
+            </button>
+            <!--button class="btn btn-default">
+              <span class="icon icon-cloud"></span>
+            </button-->
+          </div>
+
+          <button class="btn btn-default">
+            <span class="icon icon-search icon-text"></span>
+            Search
+          </button>
+        </div>
+    </header>
+
+
+    <div class="window-content" >
+    <!-- Wrap your entire app inside .window -->
+
+    <div class="pane-group">
+      <div class="pane pane-sm sidebar">
+        <ul class="list-group">
+          <li class="list-group-header">
+            <h5>History</h5>
+            <input class="form-control" type="text" placeholder="Search for someone">
+          </li>
+          <li class="list-group-item">
+            <img class="img-circle media-object pull-left" src="./img/assets/avatar.jpg" width="32" height="32">
+            <div class="media-body">
+              <strong>Chinyanta Mwenya</strong>
+              <p>Searched: 20/01/2016</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <img class="img-circle media-object pull-left" src="./img/assets/avatar2.png" width="32" height="32">
+            <div class="media-body">
+              <strong>Frank C. Simmons</strong>
+              <p>Entered 22/01/2016</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+        <!--div class="pane-group left">
+          <div class="pane pane-sm sidebar">
+            <nav class="nav-group">
+              <h5 class="nav-group-title">History</h5>
+              <span class="nav-group-item" id="history-1" title="Searched Document #32">
+                <span class="icon icon-search"></span>
+                Chinyanta Mwenya
+              </span>
+              <span class="nav-group-item" title="Filed Document #01">
+                <span class="icon icon-window"></span>
+                Frank C. Simmons
+              </span>
+            </nav>
+          </div>
+        </div-->
+
+    <div class="dataHarvest padded pull-right">
+      <h4 class="red-text">New Entry</h4>
+      <hr/>
+    <form>
+      <div class="form-group">
+        <label for="fname">First Name</label>
+        <input type="fname" class="form-control" placeholder="First Name">
+      </div>
+      <div class="form-group">
+        <label for="sname">Last Name</label>
+        <input type="sname" class="form-control" placeholder="Last Name">
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="dob" class="form-control" placeholder="Date of Birth" />
+      </div>
+      <div class="form-group">
+        <label for="sex">Gender</label>
+        <div class="radios">
+          <label>
+            <input type="radio" name="sex" /> Male
+          </label>
+          <label>
+            <input type="radio" name="sex"> Female
+          </label>
+        </div>
+      </div>
+
+    </form>
+    </div>
+
+    </div>
+    </div>
+
+<!-- Footer begins here -->
+	  <footer class="toolbar toolbar-footer padded-more">
+        <button class="btn btn-large btn-default">Cancel</button>
+        <div class="btn-group pull-right">
+          <button class="btn btn-large btn-primary push-right-20">Preview</button>
+          <button class="btn btn-large btn-positive">Save</button>
+        </div>
+	  </footer>
+
+    </div>
+
+    <script>
+    </script>
+  </body>
+</html>

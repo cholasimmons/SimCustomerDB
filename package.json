@@ -1,0 +1,13 @@
+{
+  "name": "photonTest",
+  "version": "0.1",
+  "description": "Photon App Example",
+  "author": "Chola F Simmons",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron-window": "^0.8.1"
+  }
+}

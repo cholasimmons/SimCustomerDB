@@ -1,0 +1,168 @@
+@font-face{
+  font-family: times;
+  src: url(../fonts/timesbd.ttf);
+}
+@font-face{
+  font-family: sub-times;
+  src: url(../fonts/BOOKOS.TTF);
+}
+@font-face{
+  font-family: geo;
+  src: url(../fonts/news701.ttf);
+}
+/*!
+ * =====================================================
+ * GovtPortal v0.0.1
+ * Copyright 2016 Simmons Studio
+ * Licensed under private license
+ *
+ * v0.0.1 designed by cholafranksimmons.
+ * =====================================================
+ */
+body {
+  color: #464646;
+
+}
+.toolbar-header h1 {
+  font-size:1.8em;
+}
+
+
+a{
+  color:#D2DFB2;
+  text-decoration: none;
+}
+a:hover{
+  color:#D6EFD6;
+}
+.center {
+  margin: 0 auto 0;
+  padding: 30px;
+  text-align: center;
+  width:90%;
+}
+.push-left-10 {
+  margin-left: 10px;
+}
+.push-right-10 {
+  margin-right: 10px;
+}
+.push-left-20 {
+  margin-left: 20px;
+}
+.push-right-20 {
+  margin-right: 20px;
+}
+
+header .heading {
+  font-family: geo;
+  color:#DED;
+}
+.red-text {
+  color:#CC5555 !important;
+}
+.green-text {
+  color:#55CC55;
+}
+.black-text {
+  color:#323232 !important;
+}
+span.message {
+  color:#969799;
+  font-style: italic;
+  font-family: sans-serif;
+}
+.dataHarvest form input, .dataHarvest form textarea, .dataHarvest form select, .dataHarvest form input[type="checkbox"] {
+  background-color: #CCDDCC;
+  border: none;
+  padding:10px 15px;
+  font-size:1.2em;
+
+}
+.buttonClass {
+  background-color:#295329;
+  padding:5px 15px;
+  color:#DFDFDF;
+}
+.notifications {
+  color: #D2E28B;
+  padding:3px 20px ;
+  margin:0;
+  font-size:0.95em;
+}
+#notice-icon {
+  margin-right:6px;
+}
+.notifications {
+  display:block;
+  vertical-align:top;
+  margin:0; padding:5px 30px;
+  background-color: rgba(0,0,0,0.3);
+}
+.notifications p {
+  font-size:0.9em;
+  display:inline-block;
+  vertical-align: middle;
+  margin:0; padding:0;
+}
+
+.times {
+  font-family: times;
+  margin:6px 0 0;
+}
+.sub-times {
+  font-family: sub-times;
+  margin:-4px 0 0;
+  color:#D2Df82;
+  font-size:1.6em;
+}
+.nav{
+  height:80px;
+  width:100%;
+  display:inline-block;
+  background-color: #333;
+  background-image: url(../img/strip-x.jpg);
+  background-repeat: repeat-x;
+  background-position: top;
+  padding: 16px 20px;
+}
+.nav p{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1.2em;
+  color:#BBB;
+}
+.pane {
+  background-color: #CCDDCC;
+}
+.list-group-item {
+  border-top: 1px solid #acacac;
+}
+.formWindow {
+  border: 1px solid #CCC;
+  border-top-width: 10px;
+  width:50%;
+  margin:0 auto;
+}
+.formWindow label {
+  text-align:right;
+  font-weight: bold;
+}
+.formWindow button {
+  width:100%;
+  padding:7px
+}
+.form-group {
+  display:block;
+}
+
+
+#online-status {
+  color:#E33;
+}
+footer .toolbar {
+  background-color: #AEAEAE !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #DDDDDD), color-stop(100%, #BCBCBC));
+  background-image: -webkit-linear-gradient(top, #dddddd 0%, #bcbcbc 100%);
+  background-image: linear-gradient(to bottom, #AaAaAa 0%, #BcBcBc 100%);
+}
